@@ -2,9 +2,9 @@
 This project aims to predict whether a client will subscribe to a bank term deposit based on data from direct marketing campaigns conducted by a Portuguese banking institution. It applies various machine learning techniques—especially ensemble methods—to build accurate classification models that support better marketing decisions.
 
 📌 Project Overview
-Dataset: Real-world marketing data with attributes like age, job, marital status, balance, loan info, contact method, and campaign history.
-Problem: Highly imbalanced classes (many more "no" than "yes" responses) and missing or 'unknown' values.
-Goal: Build robust models that generalize well and give insights into customer behavior.
+1. Dataset: Real-world marketing data with attributes like age, job, marital status, balance, loan info, contact method, and campaign history.
+2. Problem: Highly imbalanced classes (many more "no" than "yes" responses) and missing or 'unknown' values.
+3. Goal: Build robust models that generalize well and give insights into customer behavior.
 
 💻 My Contributions
 1. Exploratory Data Analysis (EDA)
