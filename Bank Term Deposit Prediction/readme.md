@@ -35,8 +35,13 @@ Class imbalance remained a challenge; class weighting helped but future work cou
 Handling 'unknown' values as categories helped preserve dataset structure without adding dimensionality.
 
 🧠 Skills Demonstrated
-1.Real-world data analysis & cleaning
-2.Machine learning model selection & tuning
-3.Ensemble learning techniques
-4.Handling class imbalance
+
+1. Real-world data analysis & cleaning
+
+2. Machine learning model selection & tuning
+
+3. Ensemble learning techniques
+
+4. Handling class imbalance
+
 5.Model evaluation & result visualization
