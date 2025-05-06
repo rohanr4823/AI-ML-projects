@@ -1,1 +1,54 @@
+🚨 Anomaly Detection with PyOD
+Anomaly detection is vital for identifying rare events like fraud, system failures, or cyber-attacks. This project leverages PyOD—a powerful Python toolkit—to analyze 17 benchmark datasets (.mat format), tackling varying sample sizes (148–49,097), feature dimensions (6–274), and outlier ratios (1.22%–35.90%).
 
+🔧 Technologies Used
+1. Python (Jupyter Notebook)
+2. PyOD
+3. NumPy, pandas, matplotlib
+4. scipy.io.loadmat
+
+✨ My Contributions
+📁 1. Data Preprocessing
+Loaded and standardized 17 datasets using PyOD's utilities.
+Calculated and analyzed outlier percentages (e.g., musk: 3.17%, pima: 34.90%).
+
+🧠 2. Algorithm Implementation
+Applied 10 anomaly detection models:
+Linear Models: PCA, MCD, One-Class SVM
+Proximity-based: KNN, LOF, CBLOF, HBOS
+Probabilistic: ABOD
+Ensemble: Isolation Forest, Feature Bagging
+Defined labels as 0 for inliers and 1 for outliers.
+
+🔗 3. Combination Frameworks
+Enhanced detection with ensemble score combinations:
+Average, Maximization, AOM (Average of Maximum), MOA (Maximum of Average)
+
+📊 4. Performance Evaluation
+Measured:
+ROC-AUC, precision@n, and execution time
+Stored results in pandas DataFrames for comparison
+
+🧪 Key Insights
+PCA: Balanced speed and accuracy (cardio: 0.9616 ROC-AUC)
+HBOS: Extremely fast (0.0107s), great on large datasets (e.g., shuttle: 0.9985 precision@n)
+Isolation Forest: Strong all-rounder
+Combinations improved performance on complex datasets (satimage-2, mnist)
+No one-size-fits-all: performance varies with dataset characteristics
+
+⚙️ Challenges Tackled
+High-dimensional data (e.g., arrhythmia: 274 features)
+Handling covariance errors in MCD
+Robustness via ensemble score strategies
+
+💡 Real-World Relevance
+This project demonstrates scalable, interpretable anomaly detection strategies suitable for domains like:
+🏥 Healthcare anomaly diagnosis
+💳 Fraud detection in finance
+🔐 Cybersecurity threat monitoring
+
+📌 Skills Demonstrated
+Machine Learning | Anomaly Detection
+PyOD, pandas, NumPy
+Performance Evaluation & Optimization
+Real-world problem solving
